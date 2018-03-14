@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <style>
+        .margin-bottom {
+            margin-bottom: 15px;
+        }
+    </style>
+    <title>Friends</title>
+</head>
+
+<body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    The Super-Fantastic-Happy-Hour Friend Finder Survey!
+                </h1>
+                <h2 class="subtitle">
+                    ...60% of the time, it works every time!
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2 class="subtitle">
+            Answer each question with a rating of how you feel. 1 being you don't agree at all and 5 being you totally agree.
+        </h2>
+        <div class="field">
+            <label class="label">Name (Required)</label>
+            <div class="control">
+                <input class="input" id="name" type="text" placeholder="Put your name here">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">URL to photo (Required)</label>
+            <div class="control">
+                <input class="input" id="photo-url" type="text" placeholder="http://www.yourphoto.com/photo.jpg">
+            </div>
+        </div>
+        <section class="section">
+            <form>
+                <ol>
+                    <li>
+                        <h2 class="subtitle is-marginless">I like to have friends.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question1" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question1" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question1" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question1" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question1" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I have a lot of friends.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question2" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question2" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question2" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question2" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question2" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">Who needs friend?</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question3" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question3" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question3" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question3" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question3" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat friends for breakfast.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question4" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question4" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question4" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question4" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question4" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat friends for lunch.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question5" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question5" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question5" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question5" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question5" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat friends for dinner.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question6" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question6" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question6" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question6" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question6" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat dinner with friends.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question7" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question7" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question7" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question7" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question7" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat lunch with friends.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question8" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question8" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question8" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question8" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question8" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">I eat breakfast with friends.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question9" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question9" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question9" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question9" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question9" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="subtitle is-marginless">Go Jazz!.</h2>
+                        <div class="field margin-bottom">
+                            <div class="control">
+                                <label class="radio">
+                                    <input type="radio" name="question10" value="1"> 1
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question10" value="2"> 2
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question10" value="3"> 3
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question10" value="4"> 4
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="question10" value="5"> 5
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button class="button is-link" id="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </section>
+    <div class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+            <header class="modal-card-head">
+                <p class="modal-card-title">We found a match!</p>
+                <button class="delete" aria-label="close"></button>
+            </header>
+            <section class="modal-card-body">
+                <!-- Content ... -->
+                <div class="content">
+                    <h1>Andrew Jones</h1>
+                    <img src="http://gym-people.ru/wp-content/uploads/2017/06/chto-takoe-mens-fizik.jpg" alt="picture of match">
+                </div>
+
+            </section>
+            <footer class="modal-card-foot">
+                <button class="button is-success" id="lets-meet">Let's Meet!</button>
+            </footer>
+        </div>
+    </div>
+</body>
+<script>
+    // global variables
+
+    // handlers
+    function submitClickedHandler(event) {
+        event.preventDefault();
+        var answers = [];
+        var photoUrl = $('#photo-url').val();
+        var name = $('#name').val();
+        for (var i = 1; i < 11; i++) {
+            var selector = "input[name=question" + i + "]:checked";
+            answers.push(parseInt($(selector).val()));
+        }
+        var data = {
+            answers: answers,
+            photoUrl: photoUrl,
+            name: name
+        }
+        console.log(data);
+        // send the request via ajax
+        $.ajax({
+            url: 'api/friends',
+            type: 'POST',
+            data: data
+        }).done(handleResponseFromSurvey);
+    }
+
+    function handleResponseFromSurvey(results) {
+        console.log(results);
+        $('.modal').addClass('is-active');
+    }
+
+    function handleModalClose(event) {
+        $('.modal').removeClass('is-active');
+    }
+
+    // add event listener
+    $('#submit').click(submitClickedHandler);
+    $('#lets-meet').click(handleModalClose);
+    $('.delete').click(handleModalClose);
+</script>
+
+</html>
